@@ -1,0 +1,41 @@
+{
+  "name": "tslint-angular-no-controller",
+  "version": "0.1.0",
+  "description": "TSLint rule that disallows declaring controllers in AngularJS applications",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json --outDir .",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xemlock/tslint-angular-no-controller.git"
+  },
+  "author": "xemlock <xemlock@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xemlock/tslint-angular-no-controller/issues"
+  },
+  "homepage": "https://github.com/xemlock/tslint-angular-no-controller#readme",
+  "keywords": [
+    "tslint",
+    "tslint-plugin",
+    "custom-rules",
+    "rules",
+    "lint",
+    "linter",
+    "linting",
+    "angularjs"
+  ],
+  "devDependencies": {
+    "@types/node": "^8.10.40",
+    "tslint": "^5.12.1",
+    "typescript": "^2.9.2"
+  },
+  "peerDependencies": {
+    "tslint": "^5.0.0",
+    "typescript": "^2.2.0 || ^3.0.0"
+  }
+}
